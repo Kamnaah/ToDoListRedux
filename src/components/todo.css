@@ -1,0 +1,72 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.Outer-Div{
+  width: 100%;
+  height: 100vh;
+  /* background-color: navy; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Inner-Div{
+  width: 80%;
+  height: auto;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  color: mediumaquamarine;
+}
+
+.inputSection{
+  margin-top: 2%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   /* background-color: aquamarine; */
+}
+ .inputBox{
+  height: 100%;
+  width: 60%;
+  border: 2px solid mediumaquamarine;
+  font-size: larger;
+  font-weight: lighter;
+  text-align: center;
+} 
+.addBtn{
+  height: 100%;
+  width: 15%;
+  background-color: aquamarine;
+  color: black;
+  border: 2px solid mediumaquamarine;
+  font-size: larger;
+  font-weight: bolder;
+}
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid mediumaquamarine; */
+}
+.singleList{
+  width: 60%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid mediumaquamarine; 
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.singleList > h3{
+  color: rgb(80, 115, 103);
+}
